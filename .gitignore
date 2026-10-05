@@ -1,0 +1,50 @@
+# Node and Expo dependencies/build output
+node_modules/
+.expo/
+dist/
+web-build/
+coverage/
+expo-env.d.ts
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Generated native projects
+/ios/
+/android/
+/.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Local Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Training datasets and sample images are not needed to run the app
+/data/
+/sample_images/
+/server/data/
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+
+# Logs, caches, and OS files
+.metro-health-check*
+*.tsbuildinfo
+*.log
+.DS_Store
+Thumbs.db

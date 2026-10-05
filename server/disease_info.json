@@ -1,0 +1,1961 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Crop- and disease-specific treatment and prevention knowledge base for KisanPlan",
+  "important_note": "This knowledge base does not provide pesticide doses or guarantee a diagnosis. Chemical products must be locally approved and used strictly according to the product label and local agricultural guidance.",
+  "entries": {
+    "Apple__black_rot": {
+      "crop": "Apple",
+      "disease": "black_rot",
+      "treatment": [
+        "Remove and destroy infected fruit and plant material.",
+        "Prune affected dead or diseased tissue where appropriate.",
+        "Improve orchard sanitation and airflow.",
+        "Use only locally approved plant-protection products according to their label and local agricultural guidance."
+      ],
+      "prevention": [
+        "Remove mummified fruit and infected debris.",
+        "Prune for good canopy airflow.",
+        "Inspect trees regularly for new lesions and fruit rot."
+      ],
+      "type": "disease"
+    },
+    "Apple__rust": {
+      "crop": "Apple",
+      "disease": "rust",
+      "treatment": [
+        "Remove heavily affected material where practical.",
+        "Monitor the crop and confirm the diagnosis before chemical treatment.",
+        "Use locally approved fungicide only according to label and local guidance."
+      ],
+      "prevention": [
+        "Maintain orchard sanitation.",
+        "Improve canopy airflow.",
+        "Scout regularly during disease-favorable weather."
+      ],
+      "type": "disease"
+    },
+    "Apple__scab": {
+      "crop": "Apple",
+      "disease": "scab",
+      "treatment": [
+        "Remove or manage infected leaf/fruit debris.",
+        "Use locally approved scab-management fungicide according to label and local guidance when warranted."
+      ],
+      "prevention": [
+        "Maintain orchard sanitation.",
+        "Improve canopy drying and airflow.",
+        "Monitor during wet disease-favorable periods."
+      ],
+      "type": "disease"
+    },
+    "Bellpepper__bacterial_spot": {
+      "crop": "Bellpepper",
+      "disease": "bacterial_spot",
+      "treatment": [
+        "Remove severely affected plant material.",
+        "Avoid handling plants while foliage is wet.",
+        "Use locally approved bacterial-spot products only according to label and local guidance."
+      ],
+      "prevention": [
+        "Use clean planting material.",
+        "Avoid overhead irrigation.",
+        "Sanitize tools and reduce movement through wet foliage.",
+        "Remove infected debris."
+      ],
+      "type": "disease"
+    },
+    "Cassava__bacterial_blight": {
+      "crop": "Cassava",
+      "disease": "bacterial_blight",
+      "treatment": [
+        "Remove severely infected plants/material where practical.",
+        "Control volunteer/infected plant sources.",
+        "Use clean planting material and locally recommended management."
+      ],
+      "prevention": [
+        "Use healthy, disease-free planting material.",
+        "Sanitize tools.",
+        "Remove infected crop residues.",
+        "Monitor fields regularly."
+      ],
+      "type": "disease"
+    },
+    "Cassava__brown_streak_disease": {
+      "crop": "Cassava",
+      "disease": "brown_streak_disease",
+      "treatment": [
+        "Remove severely affected plants where practical.",
+        "Use disease-free planting material and locally recommended control measures."
+      ],
+      "prevention": [
+        "Use clean planting material.",
+        "Rogue symptomatic plants where recommended locally.",
+        "Monitor fields regularly."
+      ],
+      "type": "disease"
+    },
+    "Cassava__green_mottle": {
+      "crop": "Cassava",
+      "disease": "green_mottle",
+      "treatment": [
+        "Remove severely affected plants where practical and follow local cassava disease-management guidance.",
+        "Use clean planting material."
+      ],
+      "prevention": [
+        "Use disease-free planting material.",
+        "Control known vector sources according to local extension guidance.",
+        "Scout regularly."
+      ],
+      "type": "disease"
+    },
+    "Cassava__mosaic_disease": {
+      "crop": "Cassava",
+      "disease": "mosaic_disease",
+      "treatment": [
+        "Remove severely affected plants where recommended locally.",
+        "Use clean planting material and follow local vector-management guidance."
+      ],
+      "prevention": [
+        "Use disease-free planting material.",
+        "Monitor and manage disease vectors using locally approved practices.",
+        "Rogue infected plants where recommended."
+      ],
+      "type": "disease"
+    },
+    "Cherry__powdery_mildew": {
+      "crop": "Cherry",
+      "disease": "powdery_mildew",
+      "treatment": [
+        "Remove badly affected material where practical.",
+        "Improve canopy airflow and reduce dense growth.",
+        "Use locally approved powdery-mildew products according to label and local guidance."
+      ],
+      "prevention": [
+        "Maintain good airflow and sunlight penetration.",
+        "Avoid excessive nitrogen that promotes dense susceptible growth.",
+        "Scout regularly."
+      ],
+      "type": "disease"
+    },
+    "Chili__leaf_curl": {
+      "crop": "Chili",
+      "disease": "leaf_curl",
+      "treatment": [
+        "Remove severely affected plants when appropriate.",
+        "Inspect for insect vectors and manage them using locally approved integrated pest-management practices."
+      ],
+      "prevention": [
+        "Use healthy planting material.",
+        "Scout regularly for vector insects.",
+        "Remove heavily affected plants where locally recommended.",
+        "Manage weeds that can host vectors."
+      ],
+      "type": "disease"
+    },
+    "Chili__leaf_spot": {
+      "crop": "Chili",
+      "disease": "leaf_spot",
+      "treatment": [
+        "Remove affected plant debris.",
+        "Avoid wetting foliage during irrigation.",
+        "Use locally approved disease-management products according to label and local guidance."
+      ],
+      "prevention": [
+        "Use clean planting material.",
+        "Avoid overhead irrigation.",
+        "Maintain field sanitation and airflow."
+      ],
+      "type": "disease"
+    },
+    "Chili__whitefly": {
+      "crop": "Chili",
+      "disease": "whitefly",
+      "treatment": [
+        "Use integrated pest management: inspect leaf undersides, remove heavily infested material where practical, and use locally approved control measures when thresholds justify treatment."
+      ],
+      "prevention": [
+        "Scout regularly, especially leaf undersides.",
+        "Manage weeds that can host whiteflies.",
+        "Use physical/biological controls where suitable."
+      ],
+      "type": "pest"
+    },
+    "Chili__yellowish": {
+      "crop": "Chili",
+      "disease": "yellowish",
+      "treatment": [
+        "This is a symptom class rather than a confirmed disease. Check nutrient status, watering, roots, pests and disease before treating."
+      ],
+      "prevention": [
+        "Maintain balanced irrigation and nutrition.",
+        "Scout for pests and disease.",
+        "Do not apply pesticides solely from a generic yellowing diagnosis."
+      ],
+      "type": "symptom"
+    },
+    "Coffee__cercospora_leaf_spot": {
+      "crop": "Coffee",
+      "disease": "cercospora_leaf_spot",
+      "treatment": [
+        "Remove severely affected debris where practical.",
+        "Improve canopy airflow and avoid prolonged leaf wetness.",
+        "Use locally approved fungicide according to label and local guidance."
+      ],
+      "prevention": [
+        "Maintain field sanitation.",
+        "Improve canopy ventilation.",
+        "Maintain balanced nutrition and avoid plant stress.",
+        "Scout regularly."
+      ],
+      "type": "disease"
+    },
+    "Coffee__red_spider_mite": {
+      "crop": "Coffee",
+      "disease": "red_spider_mite",
+      "treatment": [
+        "Confirm mites before treatment.",
+        "Use integrated pest management and locally approved miticides only when justified."
+      ],
+      "prevention": [
+        "Scout leaf surfaces regularly.",
+        "Avoid unnecessary broad-spectrum pesticide use that can disrupt beneficial mites.",
+        "Manage plant stress and dust where relevant."
+      ],
+      "type": "pest"
+    },
+    "Coffee__rust": {
+      "crop": "Coffee",
+      "disease": "rust",
+      "treatment": [
+        "Remove/manage infected debris where practical.",
+        "Use locally approved coffee-rust management products according to label and local guidance."
+      ],
+      "prevention": [
+        "Maintain canopy airflow.",
+        "Monitor regularly during favorable weather.",
+        "Maintain balanced crop nutrition."
+      ],
+      "type": "disease"
+    },
+    "Corn__common_rust": {
+      "crop": "Corn",
+      "disease": "common_rust",
+      "treatment": [
+        "Scout regularly and confirm rust before treatment.",
+        "Use locally approved fungicide only when warranted and according to label/local guidance."
+      ],
+      "prevention": [
+        "Use resistant/tolerant varieties where available.",
+        "Scout fields regularly.",
+        "Maintain balanced crop nutrition and avoid unnecessary stress."
+      ],
+      "type": "disease"
+    },
+    "Corn__gray_leaf_spot": {
+      "crop": "Corn",
+      "disease": "gray_leaf_spot",
+      "treatment": [
+        "Confirm diagnosis and monitor disease progression.",
+        "Use locally approved fungicide according to label and local guidance when warranted."
+      ],
+      "prevention": [
+        "Use resistant/tolerant varieties where available.",
+        "Rotate crops where appropriate.",
+        "Manage crop residue according to local recommendations.",
+        "Scout regularly."
+      ],
+      "type": "disease"
+    },
+    "Corn__northern_leaf_blight": {
+      "crop": "Corn",
+      "disease": "northern_leaf_blight",
+      "treatment": [
+        "Confirm diagnosis and monitor disease progression.",
+        "Use locally approved fungicide according to label and local guidance when treatment is justified."
+      ],
+      "prevention": [
+        "Use resistant/tolerant hybrids where available.",
+        "Rotate crops where practical.",
+        "Manage infected residue according to local recommendations."
+      ],
+      "type": "disease"
+    },
+    "Cucumber__diseased": {
+      "crop": "Cucumber",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Grape__black_measles": {
+      "crop": "Grape",
+      "disease": "black_measles",
+      "treatment": [
+        "Remove and manage severely affected plant material according to local grape disease-management guidance.",
+        "Confirm diagnosis before chemical treatment."
+      ],
+      "prevention": [
+        "Maintain vineyard sanitation.",
+        "Prune for airflow and good canopy management.",
+        "Monitor regularly."
+      ],
+      "type": "disease"
+    },
+    "Grape__black_rot": {
+      "crop": "Grape",
+      "disease": "black_rot",
+      "treatment": [
+        "Remove infected fruit and plant debris.",
+        "Improve canopy drying and airflow.",
+        "Use locally approved fungicide according to label and local guidance."
+      ],
+      "prevention": [
+        "Remove mummified fruit.",
+        "Maintain sanitation.",
+        "Manage canopy density and airflow.",
+        "Scout during wet periods."
+      ],
+      "type": "disease"
+    },
+    "Grape__leaf_blight": {
+      "crop": "Grape",
+      "disease": "leaf_blight",
+      "treatment": [
+        "Confirm the causal disease before treatment.",
+        "Remove/manage infected material where practical.",
+        "Use locally approved fungicide only according to label and local guidance."
+      ],
+      "prevention": [
+        "Maintain vineyard sanitation.",
+        "Improve airflow and canopy drying.",
+        "Scout regularly."
+      ],
+      "type": "disease"
+    },
+    "Potato__early_blight": {
+      "crop": "Potato",
+      "disease": "early_blight",
+      "treatment": [
+        "Maintain adequate crop nutrition and irrigation to reduce stress.",
+        "Remove/manage infected crop debris.",
+        "Use locally approved fungicide according to label and local guidance when warranted."
+      ],
+      "prevention": [
+        "Use healthy planting material.",
+        "Maintain balanced fertilization and irrigation.",
+        "Rotate crops where practical.",
+        "Scout regularly."
+      ],
+      "type": "disease"
+    },
+    "Potato__late_blight": {
+      "crop": "Potato",
+      "disease": "late_blight",
+      "treatment": [
+        "Remove/manage infected plant material according to local guidance.",
+        "Avoid prolonged leaf wetness and overhead irrigation where feasible.",
+        "Use locally approved late-blight products according to label and local guidance."
+      ],
+      "prevention": [
+        "Use healthy/certified planting material.",
+        "Avoid unnecessary overhead irrigation.",
+        "Remove crop debris and volunteer plants where appropriate.",
+        "Scout frequently during cool/wet conditions."
+      ],
+      "type": "disease"
+    },
+    "Rice__brown_spot": {
+      "crop": "Rice",
+      "disease": "brown_spot",
+      "treatment": [
+        "Improve crop nutrition and address nutrient stress, especially where soil testing indicates deficiency.",
+        "Use locally approved fungicide only when diagnosis and local guidance justify it."
+      ],
+      "prevention": [
+        "Use healthy seed.",
+        "Maintain balanced nutrition.",
+        "Avoid severe crop stress.",
+        "Scout regularly."
+      ],
+      "type": "disease"
+    },
+    "Rice__leaf_blast": {
+      "crop": "Rice",
+      "disease": "leaf_blast",
+      "treatment": [
+        "Use locally recommended blast-management practices and approved fungicides when warranted.",
+        "Avoid excessive nitrogen that can increase susceptibility."
+      ],
+      "prevention": [
+        "Use resistant varieties where available.",
+        "Maintain balanced nitrogen.",
+        "Use clean seed and monitor fields regularly."
+      ],
+      "type": "disease"
+    },
+    "Rice__neck_blast": {
+      "crop": "Rice",
+      "disease": "neck_blast",
+      "treatment": [
+        "Confirm diagnosis and use locally recommended blast-management measures.",
+        "Use approved fungicide according to label and local guidance when warranted."
+      ],
+      "prevention": [
+        "Use resistant varieties where available.",
+        "Maintain balanced nitrogen.",
+        "Monitor around heading/flowering."
+      ],
+      "type": "disease"
+    },
+    "Rice__hispa": {
+      "crop": "Rice",
+      "disease": "hispa",
+      "treatment": [
+        "Confirm the insect before treatment.",
+        "Use integrated pest management and locally approved insect-control measures when economic thresholds justify treatment."
+      ],
+      "prevention": [
+        "Scout leaves regularly.",
+        "Maintain field sanitation.",
+        "Use locally recommended cultural and biological controls."
+      ],
+      "type": "pest"
+    },
+    "Soybean__bacterial_blight": {
+      "crop": "Soybean",
+      "disease": "bacterial_blight",
+      "treatment": [
+        "Remove/manage severely affected material where practical.",
+        "Avoid working through wet foliage.",
+        "Use locally recommended management after diagnosis."
+      ],
+      "prevention": [
+        "Use clean seed.",
+        "Avoid unnecessary leaf wetness.",
+        "Maintain field sanitation and crop rotation where practical."
+      ],
+      "type": "disease"
+    },
+    "Soybean__caterpillar": {
+      "crop": "Soybean",
+      "disease": "caterpillar",
+      "treatment": [
+        "Scout and identify the caterpillar species before treatment.",
+        "Use integrated pest management and locally approved control measures when thresholds justify treatment."
+      ],
+      "prevention": [
+        "Scout regularly.",
+        "Protect beneficial insects.",
+        "Use locally recommended biological/cultural controls."
+      ],
+      "type": "pest"
+    },
+    "Soybean__diabrotica_speciosa": {
+      "crop": "Soybean",
+      "disease": "diabrotica_speciosa",
+      "treatment": [
+        "Confirm the pest before treatment.",
+        "Use integrated pest management and locally approved control measures when justified."
+      ],
+      "prevention": [
+        "Scout regularly.",
+        "Use crop rotation and other locally recommended cultural controls."
+      ],
+      "type": "pest"
+    },
+    "Soybean__downy_mildew": {
+      "crop": "Soybean",
+      "disease": "downy_mildew",
+      "treatment": [
+        "Remove/manage infected material where practical.",
+        "Improve airflow and reduce prolonged leaf wetness.",
+        "Use locally approved fungicide according to label and local guidance when warranted."
+      ],
+      "prevention": [
+        "Use healthy seed.",
+        "Improve field drainage and airflow.",
+        "Scout regularly during humid/wet periods."
+      ],
+      "type": "disease"
+    },
+    "Soybean__mosaic_virus": {
+      "crop": "Soybean",
+      "disease": "mosaic_virus",
+      "treatment": [
+        "There is no universal curative treatment for a virus infection. Remove severely infected plants where locally recommended and manage vectors."
+      ],
+      "prevention": [
+        "Use healthy planting material.",
+        "Control vectors using integrated pest management.",
+        "Remove infected plants where recommended.",
+        "Manage weeds that can host vectors."
+      ],
+      "type": "viral_disease"
+    },
+    "Soybean__powdery_mildew": {
+      "crop": "Soybean",
+      "disease": "powdery_mildew",
+      "treatment": [
+        "Improve airflow and reduce prolonged humidity around foliage.",
+        "Use locally approved fungicide according to label and local guidance when warranted."
+      ],
+      "prevention": [
+        "Maintain canopy airflow.",
+        "Scout regularly.",
+        "Avoid excessive dense growth."
+      ],
+      "type": "disease"
+    },
+    "Soybean__rust": {
+      "crop": "Soybean",
+      "disease": "rust",
+      "treatment": [
+        "Monitor disease progression and use locally approved fungicide when warranted according to label/local guidance."
+      ],
+      "prevention": [
+        "Use resistant varieties where available.",
+        "Scout regularly.",
+        "Maintain balanced crop nutrition."
+      ],
+      "type": "disease"
+    },
+    "Soybean__southern_blight": {
+      "crop": "Soybean",
+      "disease": "southern_blight",
+      "treatment": [
+        "Remove/manage severely infected material and crop debris according to local recommendations.",
+        "Use locally approved fungicide only when justified."
+      ],
+      "prevention": [
+        "Maintain field sanitation.",
+        "Rotate crops where practical.",
+        "Avoid excessive moisture around the crop."
+      ],
+      "type": "disease"
+    },
+    "Strawberry__leaf_scorch": {
+      "crop": "Strawberry",
+      "disease": "leaf_scorch",
+      "treatment": [
+        "Remove severely affected leaves where practical.",
+        "Confirm diagnosis before chemical treatment.",
+        "Use locally approved disease-management products only when warranted."
+      ],
+      "prevention": [
+        "Maintain airflow and sanitation.",
+        "Avoid prolonged leaf wetness.",
+        "Scout regularly."
+      ],
+      "type": "disease"
+    },
+    "Sugarcane__red_rot": {
+      "crop": "Sugarcane",
+      "disease": "red_rot",
+      "treatment": [
+        "Remove severely infected stalks and follow local sugarcane disease-management recommendations.",
+        "Use healthy planting material."
+      ],
+      "prevention": [
+        "Use disease-free planting material.",
+        "Maintain field sanitation.",
+        "Remove infected stalks where recommended.",
+        "Use resistant varieties where available."
+      ],
+      "type": "disease"
+    },
+    "Sugarcane__red_stripe": {
+      "crop": "Sugarcane",
+      "disease": "red_stripe",
+      "treatment": [
+        "Confirm diagnosis and follow local sugarcane disease-management guidance.",
+        "Remove/manage severely affected material where practical."
+      ],
+      "prevention": [
+        "Use healthy planting material.",
+        "Maintain sanitation.",
+        "Monitor fields regularly."
+      ],
+      "type": "disease"
+    },
+    "Sugarcane__rust": {
+      "crop": "Sugarcane",
+      "disease": "rust",
+      "treatment": [
+        "Monitor disease and use locally approved fungicide only when warranted and according to label."
+      ],
+      "prevention": [
+        "Use resistant varieties where available.",
+        "Scout regularly.",
+        "Maintain balanced crop nutrition."
+      ],
+      "type": "disease"
+    },
+    "Sugarcane__bacterial_blight": {
+      "crop": "Sugarcane",
+      "disease": "bacterial_blight",
+      "treatment": [
+        "Remove/manage severely affected plants where practical and follow local extension guidance."
+      ],
+      "prevention": [
+        "Use healthy planting material.",
+        "Sanitize tools.",
+        "Maintain field sanitation."
+      ],
+      "type": "disease"
+    },
+    "Tea__algal_leaf": {
+      "crop": "Tea",
+      "disease": "algal_leaf",
+      "treatment": [
+        "Improve canopy airflow and reduce prolonged leaf wetness.",
+        "Remove/manage severely affected material where practical.",
+        "Use locally approved treatment only after diagnosis."
+      ],
+      "prevention": [
+        "Maintain good canopy management.",
+        "Improve drainage and airflow.",
+        "Scout regularly."
+      ],
+      "type": "disease"
+    },
+    "Tea__anthracnose": {
+      "crop": "Tea",
+      "disease": "anthracnose",
+      "treatment": [
+        "Prune/remove severely affected material where appropriate.",
+        "Improve airflow and sanitation.",
+        "Use locally approved fungicide according to label and local guidance when warranted."
+      ],
+      "prevention": [
+        "Maintain field sanitation.",
+        "Improve canopy ventilation.",
+        "Avoid prolonged leaf wetness."
+      ],
+      "type": "disease"
+    },
+    "Tea__bird_eye_spot": {
+      "crop": "Tea",
+      "disease": "bird_eye_spot",
+      "treatment": [
+        "Remove/manage affected material where practical.",
+        "Use locally approved disease-management products only when diagnosis is confirmed."
+      ],
+      "prevention": [
+        "Maintain sanitation and canopy airflow.",
+        "Scout regularly."
+      ],
+      "type": "disease"
+    },
+    "Tea__brown_blight": {
+      "crop": "Tea",
+      "disease": "brown_blight",
+      "treatment": [
+        "Remove/manage affected material where practical.",
+        "Improve canopy airflow and sanitation.",
+        "Use locally approved fungicide according to label/local guidance when warranted."
+      ],
+      "prevention": [
+        "Maintain field sanitation.",
+        "Avoid prolonged leaf wetness.",
+        "Monitor regularly."
+      ],
+      "type": "disease"
+    },
+    "Tea__red_leaf_spot": {
+      "crop": "Tea",
+      "disease": "red_leaf_spot",
+      "treatment": [
+        "Remove/manage affected material where practical.",
+        "Improve canopy airflow.",
+        "Use locally approved treatment according to label and local guidance when warranted."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Improve drainage and airflow.",
+        "Scout regularly."
+      ],
+      "type": "disease"
+    },
+    "Tomato__bacterial_spot": {
+      "crop": "Tomato",
+      "disease": "bacterial_spot",
+      "treatment": [
+        "Remove severely infected material where practical.",
+        "Avoid overhead irrigation and working through wet foliage.",
+        "Use locally approved bacterial-spot products according to label and local guidance."
+      ],
+      "prevention": [
+        "Use clean planting material.",
+        "Avoid overhead irrigation.",
+        "Sanitize tools.",
+        "Remove infected debris.",
+        "Scout regularly."
+      ],
+      "type": "disease"
+    },
+    "Tomato__early_blight": {
+      "crop": "Tomato",
+      "disease": "early_blight",
+      "treatment": [
+        "Remove/manage infected leaves and crop debris.",
+        "Avoid prolonged leaf wetness.",
+        "Use locally approved fungicide according to label and local guidance when warranted."
+      ],
+      "prevention": [
+        "Use crop rotation where practical.",
+        "Remove volunteer/nightshade hosts where appropriate.",
+        "Avoid overhead irrigation.",
+        "Maintain plant vigor and field sanitation."
+      ],
+      "type": "disease"
+    },
+    "Tomato__late_blight": {
+      "crop": "Tomato",
+      "disease": "late_blight",
+      "treatment": [
+        "Remove/manage infected plant material according to local guidance.",
+        "Avoid prolonged leaf wetness and overhead irrigation where feasible.",
+        "Use locally approved late-blight products according to label and local guidance."
+      ],
+      "prevention": [
+        "Use healthy planting material.",
+        "Avoid unnecessary overhead irrigation.",
+        "Remove infected debris and volunteer hosts.",
+        "Monitor frequently during cool/wet weather."
+      ],
+      "type": "disease"
+    },
+    "Tomato__leaf_mold": {
+      "crop": "Tomato",
+      "disease": "leaf_mold",
+      "treatment": [
+        "Improve ventilation and reduce humidity around foliage.",
+        "Remove affected leaves where practical.",
+        "Use locally approved fungicide according to label/local guidance when warranted."
+      ],
+      "prevention": [
+        "Improve greenhouse/field airflow.",
+        "Avoid prolonged leaf wetness.",
+        "Maintain sanitation."
+      ],
+      "type": "disease"
+    },
+    "Tomato__mosaic_virus": {
+      "crop": "Tomato",
+      "disease": "mosaic_virus",
+      "treatment": [
+        "There is no universal curative treatment for an established virus infection. Remove severely infected plants where recommended and manage vectors."
+      ],
+      "prevention": [
+        "Use clean planting material.",
+        "Disinfect tools.",
+        "Control vectors with integrated pest management.",
+        "Remove infected plants where locally recommended."
+      ],
+      "type": "viral_disease"
+    },
+    "Tomato__septoria_leaf_spot": {
+      "crop": "Tomato",
+      "disease": "septoria_leaf_spot",
+      "treatment": [
+        "Remove/manage infected leaves and debris.",
+        "Avoid overhead irrigation.",
+        "Use locally approved fungicide according to label/local guidance when warranted."
+      ],
+      "prevention": [
+        "Maintain field sanitation.",
+        "Rotate crops where practical.",
+        "Avoid prolonged leaf wetness.",
+        "Scout regularly."
+      ],
+      "type": "disease"
+    },
+    "Tomato__spider_mites": {
+      "crop": "Tomato",
+      "disease": "spider_mites",
+      "treatment": [
+        "Confirm mites before treatment.",
+        "Use integrated pest management and locally approved miticides only when justified."
+      ],
+      "prevention": [
+        "Scout leaf undersides regularly.",
+        "Manage plant stress.",
+        "Protect beneficial predators and avoid unnecessary broad-spectrum pesticides."
+      ],
+      "type": "pest"
+    },
+    "Tomato__target_spot": {
+      "crop": "Tomato",
+      "disease": "target_spot",
+      "treatment": [
+        "Remove/manage infected leaves and debris.",
+        "Improve airflow and reduce prolonged leaf wetness.",
+        "Use locally approved fungicide according to label/local guidance when warranted."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Avoid prolonged leaf wetness.",
+        "Scout regularly."
+      ],
+      "type": "disease"
+    },
+    "Tomato__yellow_leaf_curl_virus": {
+      "crop": "Tomato",
+      "disease": "yellow_leaf_curl_virus",
+      "treatment": [
+        "There is no universal curative treatment for an established viral infection. Remove severely infected plants where locally recommended and manage whitefly vectors."
+      ],
+      "prevention": [
+        "Use healthy planting material.",
+        "Monitor and manage whitefly vectors using integrated pest management.",
+        "Remove infected plants where recommended.",
+        "Control weed hosts."
+      ],
+      "type": "viral_disease"
+    },
+    "Wheat__brown_rust": {
+      "crop": "Wheat",
+      "disease": "brown_rust",
+      "treatment": [
+        "Monitor disease progression and use locally approved fungicide when warranted according to label and local guidance."
+      ],
+      "prevention": [
+        "Use resistant varieties where available.",
+        "Scout regularly.",
+        "Maintain balanced crop nutrition."
+      ],
+      "type": "disease"
+    },
+    "Wheat__yellow_rust": {
+      "crop": "Wheat",
+      "disease": "yellow_rust",
+      "treatment": [
+        "Monitor disease progression and use locally approved fungicide when warranted according to label and local guidance."
+      ],
+      "prevention": [
+        "Use resistant varieties where available.",
+        "Scout regularly during cool disease-favorable periods.",
+        "Maintain balanced crop nutrition."
+      ],
+      "type": "disease"
+    },
+    "Wheat__septoria": {
+      "crop": "Wheat",
+      "disease": "septoria",
+      "treatment": [
+        "Confirm diagnosis and monitor disease progression.",
+        "Use locally approved fungicide when warranted according to label/local guidance."
+      ],
+      "prevention": [
+        "Use resistant/tolerant varieties where available.",
+        "Maintain field sanitation and crop rotation where practical.",
+        "Scout regularly."
+      ],
+      "type": "disease"
+    },
+    "Apple__Healthy": {
+      "crop": "Apple",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Apple__Rotten": {
+      "crop": "Apple",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Apple__diseased": {
+      "crop": "Apple",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Banana__Healthy": {
+      "crop": "Banana",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Banana__Rotten": {
+      "crop": "Banana",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Banana__diseased": {
+      "crop": "Banana",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Bellpepper__Healthy": {
+      "crop": "Bellpepper",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Bellpepper__Rotten": {
+      "crop": "Bellpepper",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Bellpepper__diseased": {
+      "crop": "Bellpepper",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Carrot__Healthy": {
+      "crop": "Carrot",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Carrot__Rotten": {
+      "crop": "Carrot",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Carrot__diseased": {
+      "crop": "Carrot",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Cassava__Healthy": {
+      "crop": "Cassava",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Cassava__Rotten": {
+      "crop": "Cassava",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Cassava__diseased": {
+      "crop": "Cassava",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Cherry__Healthy": {
+      "crop": "Cherry",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Cherry__Rotten": {
+      "crop": "Cherry",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Cherry__diseased": {
+      "crop": "Cherry",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Chili__Healthy": {
+      "crop": "Chili",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Chili__Rotten": {
+      "crop": "Chili",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Chili__diseased": {
+      "crop": "Chili",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Coffee__Healthy": {
+      "crop": "Coffee",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Coffee__Rotten": {
+      "crop": "Coffee",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Coffee__diseased": {
+      "crop": "Coffee",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Corn__Healthy": {
+      "crop": "Corn",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Corn__Rotten": {
+      "crop": "Corn",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Corn__diseased": {
+      "crop": "Corn",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Cucumber__Healthy": {
+      "crop": "Cucumber",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Cucumber__Rotten": {
+      "crop": "Cucumber",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Grape__Healthy": {
+      "crop": "Grape",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Grape__Rotten": {
+      "crop": "Grape",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Grape__diseased": {
+      "crop": "Grape",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Guava__Healthy": {
+      "crop": "Guava",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Guava__Rotten": {
+      "crop": "Guava",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Guava__diseased": {
+      "crop": "Guava",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Jamun__Healthy": {
+      "crop": "Jamun",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Jamun__Rotten": {
+      "crop": "Jamun",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Jamun__diseased": {
+      "crop": "Jamun",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Jujube__Healthy": {
+      "crop": "Jujube",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Jujube__Rotten": {
+      "crop": "Jujube",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Jujube__diseased": {
+      "crop": "Jujube",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Lemon__Healthy": {
+      "crop": "Lemon",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Lemon__Rotten": {
+      "crop": "Lemon",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Lemon__diseased": {
+      "crop": "Lemon",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Mango__Healthy": {
+      "crop": "Mango",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Mango__Rotten": {
+      "crop": "Mango",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Mango__diseased": {
+      "crop": "Mango",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Orange__Healthy": {
+      "crop": "Orange",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Orange__Rotten": {
+      "crop": "Orange",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Orange__diseased": {
+      "crop": "Orange",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Peach__Healthy": {
+      "crop": "Peach",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Peach__Rotten": {
+      "crop": "Peach",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Peach__diseased": {
+      "crop": "Peach",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Pepper_bell__Healthy": {
+      "crop": "Pepper_bell",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Pepper_bell__Rotten": {
+      "crop": "Pepper_bell",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Pepper_bell__diseased": {
+      "crop": "Pepper_bell",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Pomegranate__Healthy": {
+      "crop": "Pomegranate",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Pomegranate__Rotten": {
+      "crop": "Pomegranate",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Pomegranate__diseased": {
+      "crop": "Pomegranate",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Potato__Healthy": {
+      "crop": "Potato",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Potato__Rotten": {
+      "crop": "Potato",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Potato__diseased": {
+      "crop": "Potato",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Rice__Healthy": {
+      "crop": "Rice",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Rice__Rotten": {
+      "crop": "Rice",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Rice__diseased": {
+      "crop": "Rice",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Soybean__Healthy": {
+      "crop": "Soybean",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Soybean__Rotten": {
+      "crop": "Soybean",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Soybean__diseased": {
+      "crop": "Soybean",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Strawberry__Healthy": {
+      "crop": "Strawberry",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Strawberry__Rotten": {
+      "crop": "Strawberry",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Strawberry__diseased": {
+      "crop": "Strawberry",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Sugarcane__Healthy": {
+      "crop": "Sugarcane",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Sugarcane__Rotten": {
+      "crop": "Sugarcane",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Sugarcane__diseased": {
+      "crop": "Sugarcane",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Tea__Healthy": {
+      "crop": "Tea",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Tea__Rotten": {
+      "crop": "Tea",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Tea__diseased": {
+      "crop": "Tea",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Tomato__Healthy": {
+      "crop": "Tomato",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Tomato__Rotten": {
+      "crop": "Tomato",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Tomato__diseased": {
+      "crop": "Tomato",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    },
+    "Wheat__Healthy": {
+      "crop": "Wheat",
+      "disease": "Healthy",
+      "type": "healthy",
+      "treatment": [
+        "No disease treatment is indicated from this class."
+      ],
+      "prevention": [
+        "Continue routine scouting.",
+        "Maintain balanced irrigation and nutrition.",
+        "Follow crop-specific good agricultural practices."
+      ]
+    },
+    "Wheat__Rotten": {
+      "crop": "Wheat",
+      "disease": "Rotten",
+      "type": "condition",
+      "treatment": [
+        "Remove affected/rotten material and determine the underlying cause before applying any pesticide."
+      ],
+      "prevention": [
+        "Maintain sanitation.",
+        "Reduce conditions that cause prolonged moisture or poor storage/handling.",
+        "Confirm the underlying cause if the problem persists."
+      ]
+    },
+    "Wheat__diseased": {
+      "crop": "Wheat",
+      "disease": "diseased",
+      "type": "uncertain",
+      "treatment": [
+        "This class does not identify a specific disease. Do not prescribe a disease-specific pesticide from this prediction alone; obtain a more specific diagnosis."
+      ],
+      "prevention": [
+        "Scout the plant carefully.",
+        "Maintain sanitation and balanced irrigation/nutrition.",
+        "Seek local agronomic confirmation if symptoms persist."
+      ]
+    }
+  },
+  "fertilizer_integration": {
+    "source_dataset": "fertilizer_recommendation.csv",
+    "recommendation_inputs": [
+      "crop",
+      "growth_stage",
+      "soil_type",
+      "soil_pH",
+      "soil_moisture",
+      "organic_carbon",
+      "electrical_conductivity",
+      "nitrogen_level",
+      "phosphorus_level",
+      "potassium_level",
+      "temperature",
+      "humidity"
+    ],
+    "output": "predicted_fertilizer_class",
+    "dosage_warning": "Do not infer kg/acre dosage from the classifier unless a validated crop-, stage- and soil-specific agronomic rule is available."
+  }
+}

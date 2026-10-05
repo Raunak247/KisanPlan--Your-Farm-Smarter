@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">KisanPlan technology stack workflow</title>
+  <desc id="desc">Workflow showing an Expo React Native mobile client connected to a Python API and PyTorch machine learning services, ESP32 IoT telemetry, and external weather, soil, geocoding, map, and Groq APIs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#071b16"/>
+      <stop offset="1" stop-color="#123d2a"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#173f2d"/>
+      <stop offset="1" stop-color="#102e23"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity=".28"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#80d8a0"/>
+    </marker>
+    <style>
+      .title{font:700 42px Inter,Segoe UI,Arial,sans-serif;fill:#f4fff7}
+      .subtitle{font:400 19px Inter,Segoe UI,Arial,sans-serif;fill:#b8d8c2}
+      .section{font:700 18px Inter,Segoe UI,Arial,sans-serif;fill:#b8f1c5;letter-spacing:1.4px}
+      .label{font:700 18px Inter,Segoe UI,Arial,sans-serif;fill:#f4fff7}
+      .small{font:400 14px Inter,Segoe UI,Arial,sans-serif;fill:#c3ddc9}
+      .tiny{font:400 12px Inter,Segoe UI,Arial,sans-serif;fill:#a9c9b2}
+      .badge{font:700 18px Inter,Segoe UI,Arial,sans-serif;fill:#ffffff}
+      .card{fill:url(#panel);stroke:#2e6b4a;stroke-width:1.5}
+      .line{stroke:#80d8a0;stroke-width:3;fill:none;marker-end:url(#arrow)}
+      .dashed{stroke:#6abf8b;stroke-width:2.5;stroke-dasharray:8 8;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+
+  <rect width="1600" height="980" fill="url(#bg)"/>
+  <circle cx="1460" cy="60" r="220" fill="#2b8c57" opacity=".12"/>
+  <circle cx="120" cy="920" r="250" fill="#71bf4d" opacity=".08"/>
+  <text x="80" y="78" class="title">KisanPlan technology workflow</text>
+  <text x="80" y="112" class="subtitle">Offline-capable farm assistant · mobile UI, live field telemetry, ML inference, and agronomic APIs</text>
+
+  <text x="80" y="172" class="section">CLIENT EXPERIENCE</text>
+  <rect x="80" y="198" rx="20" width="360" height="590" class="card" filter="url(#shadow)"/>
+  <circle cx="145" cy="270" r="38" fill="#1e88e5"/>
+  <rect x="129" y="247" width="32" height="48" rx="6" fill="none" stroke="#fff" stroke-width="4"/>
+  <circle cx="145" cy="286" r="3" fill="#fff"/>
+  <text x="205" y="263" class="label">Expo 57</text>
+  <text x="205" y="289" class="small">React Native 0.86 + TypeScript 6</text>
+  <line x1="115" y1="330" x2="405" y2="330" stroke="#2e6b4a"/>
+  <g transform="translate(118 370)">
+    <circle cx="22" cy="22" r="22" fill="#61dafb"/>
+    <path d="M22 8c-11 0-20 6-20 14s9 14 20 14 20-6 20-14S33 8 22 8Zm0 5c4 0 7 4 7 9s-3 9-7 9-7-4-7-9 3-9 7-9Z" fill="#123d2a"/>
+    <text x="57" y="19" class="label">React Native screens</text>
+    <text x="57" y="40" class="small">Dashboard, planner, scan, field map</text>
+  </g>
+  <g transform="translate(118 455)">
+    <circle cx="22" cy="22" r="22" fill="#f6c343"/>
+    <text x="11" y="29" class="badge">TS</text>
+    <text x="57" y="19" class="label">Service clients</text>
+    <text x="57" y="40" class="small">Weather, soil, sensor, prediction</text>
+  </g>
+  <g transform="translate(118 540)">
+    <circle cx="22" cy="22" r="22" fill="#9b59b6"/>
+    <path d="M12 21h20M22 11v20" stroke="#fff" stroke-width="4"/>
+    <text x="57" y="19" class="label">Expo modules</text>
+    <text x="57" y="40" class="small">Location, image picker, WebView</text>
+  </g>
+  <g transform="translate(118 625)">
+    <circle cx="22" cy="22" r="22" fill="#ef8d32"/>
+    <path d="M10 14h24v18H10zM14 10h16v4H14z" fill="none" stroke="#fff" stroke-width="3"/>
+    <text x="57" y="19" class="label">AsyncStorage</text>
+    <text x="57" y="40" class="small">Offline cache and farm profile</text>
+  </g>
+  <text x="110" y="748" class="tiny">Runs on Android, iOS, web, and Expo Go</text>
+
+  <text x="550" y="172" class="section">LOCAL API AND ML PIPELINE</text>
+  <rect x="550" y="198" rx="20" width="500" height="590" class="card" filter="url(#shadow)"/>
+  <circle cx="620" cy="270" r="38" fill="#3776ab"/>
+  <path d="M609 249c-8 0-10 5-10 12v8h18v5h-20c-7 0-11 5-11 12s4 12 11 12h7v-9h-7c-2 0-3-1-3-3s1-3 3-3h20v-17c0-7-4-12-8-12Zm-2 6c2 0 4 2 4 4s-2 4-4 4-4-2-4-4 2-4 4-4Zm18 48c8 0 10-5 10-12v-8h-18v-5h20c7 0 11-5 11-12s-4-12-11-12h-7v9h7c2 0 3 1 3 3s-1 3-3 3h-20v17c0 7 4 12 8 12Zm2-6c-2 0-4-2-4-4s2-4 4-4 4 2 4 4-2 4-4 4Z" fill="#fff"/>
+  <text x="680" y="263" class="label">Python 3.9+ HTTP service</text>
+  <text x="680" y="289" class="small">sensor_bridge.py · port 5001</text>
+  <line x1="585" y1="330" x2="1015" y2="330" stroke="#2e6b4a"/>
+  <g transform="translate(588 370)">
+    <circle cx="22" cy="22" r="22" fill="#ee4c2c"/>
+    <path d="M10 17 22 11l12 6-12 6-12-6Zm0 7 12 6 12-6v7l-12 6-12-6v-7Z" fill="#fff"/>
+    <text x="57" y="19" class="label">PyTorch inference</text>
+    <text x="57" y="40" class="small">EfficientNet-B0 and YOLO fallbacks</text>
+  </g>
+  <g transform="translate(588 455)">
+    <circle cx="22" cy="22" r="22" fill="#0d8b64"/>
+    <text x="10" y="29" class="badge">ML</text>
+    <text x="57" y="19" class="label">Crop disease API</text>
+    <text x="57" y="40" class="small">POST /api/predict · 101 classes</text>
+  </g>
+  <g transform="translate(588 540)">
+    <circle cx="22" cy="22" r="22" fill="#0d8b64"/>
+    <text x="10" y="29" class="badge">ML</text>
+    <text x="57" y="19" class="label">Fertilizer API</text>
+    <text x="57" y="40" class="small">POST /api/fertilizer · 7 outputs</text>
+  </g>
+  <g transform="translate(588 625)">
+    <circle cx="22" cy="22" r="22" fill="#e74c3c"/>
+    <path d="M11 16h22v14H11zM15 12h14M18 30v6M26 30v6" fill="none" stroke="#fff" stroke-width="3"/>
+    <text x="57" y="19" class="label">IoT sensor bridge</text>
+    <text x="57" y="40" class="small">ESP32 serial telemetry · COM5</text>
+  </g>
+  <text x="580" y="748" class="tiny">Local network transport keeps physical-phone testing simple</text>
+
+  <text x="1160" y="172" class="section">EXTERNAL DATA AND AI</text>
+  <rect x="1160" y="198" rx="20" width="360" height="590" class="card" filter="url(#shadow)"/>
+  <g transform="translate(1195 250)">
+    <circle cx="25" cy="25" r="25" fill="#38a169"/><text x="12" y="32" class="badge">WX</text>
+    <text x="70" y="21" class="label">Open-Meteo</text><text x="70" y="43" class="small">Forecast and geocoding</text>
+  </g>
+  <g transform="translate(1195 340)">
+    <circle cx="25" cy="25" r="25" fill="#7b61ff"/><text x="10" y="32" class="badge">SOIL</text>
+    <text x="70" y="21" class="label">ISRIC SoilGrids</text><text x="70" y="43" class="small">Texture and drainage data</text>
+  </g>
+  <g transform="translate(1195 430)">
+    <circle cx="25" cy="25" r="25" fill="#f59e0b"/><text x="9" y="32" class="badge">MAP</text>
+    <text x="70" y="21" class="label">OpenStreetMap</text><text x="70" y="43" class="small">Field map in WebView</text>
+  </g>
+  <g transform="translate(1195 520)">
+    <circle cx="25" cy="25" r="25" fill="#5b8def"/><text x="8" y="32" class="badge">GEO</text>
+    <text x="70" y="21" class="label">BigDataCloud</text><text x="70" y="43" class="small">Reverse geocoding</text>
+  </g>
+  <g transform="translate(1195 610)">
+    <circle cx="25" cy="25" r="25" fill="#db2777"/><text x="10" y="32" class="badge">AI</text>
+    <text x="70" y="21" class="label">Groq optional</text><text x="70" y="43" class="small">Weekly advisor note</text>
+  </g>
+  <text x="1190" y="748" class="tiny">HTTP APIs called by typed service modules</text>
+
+  <path d="M440 470 C480 470 510 470 550 470" class="line"/>
+  <text x="452" y="448" class="tiny">REST / JSON</text>
+  <path d="M1050 355 C1090 355 1120 300 1160 300" class="dashed"/>
+  <path d="M1050 425 C1090 425 1120 390 1160 390" class="dashed"/>
+  <path d="M1050 495 C1090 495 1120 480 1160 480" class="dashed"/>
+  <path d="M1050 565 C1090 565 1120 570 1160 570" class="dashed"/>
+  <path d="M1050 635 C1090 635 1120 660 1160 660" class="dashed"/>
+
+  <rect x="80" y="840" width="1440" height="82" rx="16" fill="#0b261c" stroke="#2e6b4a"/>
+  <text x="110" y="875" class="label">Typical workflow</text>
+  <text x="110" y="900" class="small">Farmer opens the Expo app → service client gathers field context → Python API reads sensors or runs ML → external APIs enrich the recommendation → result is cached and shown in the planner.</text>
+</svg>

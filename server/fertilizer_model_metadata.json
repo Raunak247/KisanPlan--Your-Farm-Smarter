@@ -1,0 +1,121 @@
+{
+  "model_type": "fertilizer_recommendation_classifier",
+  "architecture": "FertilizerMLP: Linear(input,256)->BN->ReLU->Dropout(0.3)->Linear(256,256)->BN->ReLU->Dropout(0.2)->Linear(256,128)->BN->ReLU->Dropout(0.2)->Linear(128,64)->BN->ReLU->Linear(64,n_classes)",
+  "input_features": [
+    "Soil_pH",
+    "Soil_Moisture",
+    "Organic_Carbon",
+    "Electrical_Conductivity",
+    "Nitrogen_Level",
+    "Phosphorus_Level",
+    "Potassium_Level",
+    "Temperature",
+    "Humidity",
+    "Rainfall",
+    "Fertilizer_Used_Last_Season",
+    "Yield_Last_Season",
+    "Soil_Type",
+    "Crop_Type",
+    "Crop_Growth_Stage",
+    "Season",
+    "Irrigation_Type",
+    "Previous_Crop",
+    "Region"
+  ],
+  "feature_count": 19,
+  "class_count": 7,
+  "class_mapping": {
+    "0": "Compost",
+    "1": "DAP",
+    "2": "MOP",
+    "3": "NPK",
+    "4": "SSP",
+    "5": "Urea",
+    "6": "Zinc Sulphate"
+  },
+  "preprocessing": {
+    "numerical": "StandardScaler (fitted on train)",
+    "categorical": "OrdinalEncoder (fitted on train)",
+    "target": "LabelEncoder",
+    "note": "All preprocessing parameters stored in .pt file"
+  },
+  "training_config": {
+    "optimizer": "AdamW",
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "epochs_max": 100,
+    "patience": 12,
+    "batch_size": 256,
+    "scheduler": "CosineAnnealingLR"
+  },
+  "dataset": {
+    "source": "fertilizer_recommendation.csv",
+    "rows": 10000,
+    "train": 7000,
+    "val": 1500,
+    "test": 1500
+  },
+  "framework": "PyTorch 2.13.0+cpu",
+  "device_used": "cpu",
+  "training_date": "2026-10-04T19:15:38.704957",
+  "best_val_accuracy": 0.8567,
+  "test_metrics": {
+    "accuracy": 0.8267,
+    "precision": 0.643,
+    "recall": 0.6682,
+    "f1": 0.6535,
+    "test_count": 1500
+  },
+  "per_class_metrics": [
+    {
+      "class": "Compost",
+      "precision": 0.6474,
+      "recall": 0.7467,
+      "f1": 0.6935,
+      "count": 150
+    },
+    {
+      "class": "DAP",
+      "precision": 0.9272,
+      "recall": 0.9018,
+      "f1": 0.9144,
+      "count": 438
+    },
+    {
+      "class": "MOP",
+      "precision": 0.8594,
+      "recall": 0.782,
+      "f1": 0.8189,
+      "count": 211
+    },
+    {
+      "class": "NPK",
+      "precision": 0.5882,
+      "recall": 0.625,
+      "f1": 0.6061,
+      "count": 96
+    },
+    {
+      "class": "SSP",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "count": 27
+    },
+    {
+      "class": "Urea",
+      "precision": 0.9266,
+      "recall": 0.9226,
+      "f1": 0.9246,
+      "count": 465
+    },
+    {
+      "class": "Zinc Sulphate",
+      "precision": 0.5524,
+      "recall": 0.6991,
+      "f1": 0.6172,
+      "count": 113
+    }
+  ],
+  "model_version": "1.0"
+}
